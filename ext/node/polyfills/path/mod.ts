@@ -28,7 +28,7 @@ export const {
   toNamespacedPath,
 } = path;
 
-export * from "ext:deno_node/path/common.ts";
-export { SEP, SEP_PATTERN } from "ext:deno_node/path/separator.ts";
-export * from "ext:deno_node/path/_interface.ts";
-export * from "ext:deno_node/path/glob.ts";
+// export * from "ext:deno_node/path/common.ts";
+// export { SEP, SEP_PATTERN } from "ext:deno_node/path/separator.ts";
+// export * from "ext:deno_node/path/_interface.ts";
+// export * from "ext:deno_node/path/glob.ts";

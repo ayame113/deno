@@ -1,6 +1,6 @@
 // Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.
 import { Encodings } from "ext:deno_node/_utils.ts";
-import { fromFileUrl } from "ext:deno_node/path.ts";
+import { fromFileUrl } from "ext:deno_node/path/mod.ts";
 import { Buffer } from "ext:deno_node/buffer.ts";
 import {
   CallbackWithError,

@@ -66,7 +66,7 @@ import {
   CHAR_VERTICAL_LINE,
   CHAR_ZERO_WIDTH_NOBREAK_SPACE,
 } from "ext:deno_node/path/_constants.ts";
-import * as path from "ext:deno_node/path.ts";
+import * as path from "ext:deno_node/path/mod.ts";
 import { toASCII, toUnicode } from "ext:deno_node/punycode.ts";
 import { isWindows, osType } from "ext:deno_node/_util/os.ts";
 import { encodeStr, hexTable } from "ext:deno_node/internal/querystring.ts";

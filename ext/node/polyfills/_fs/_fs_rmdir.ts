@@ -6,7 +6,7 @@ import {
   validateRmOptions,
   validateRmOptionsSync,
 } from "ext:deno_node/internal/fs/utils.mjs";
-import { toNamespacedPath } from "ext:deno_node/path.ts";
+import { toNamespacedPath } from "ext:deno_node/path/mod.ts";
 import {
   denoErrorToNodeError,
   ERR_FS_RMDIR_ENOTDIR,

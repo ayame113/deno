@@ -6,7 +6,7 @@ import {
   TextOptionsArgument,
 } from "ext:deno_node/_fs/_fs_common.ts";
 import { Buffer } from "ext:deno_node/buffer.ts";
-import { fromFileUrl } from "ext:deno_node/path.ts";
+import { fromFileUrl } from "ext:deno_node/path/mod.ts";
 import {
   BinaryEncodings,
   Encodings,

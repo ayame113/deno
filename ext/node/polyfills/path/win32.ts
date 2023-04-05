@@ -24,6 +24,8 @@ import {
 } from "ext:deno_node/path/_util.ts";
 import { assert } from "ext:deno_node/_util/asserts.ts";
 
+import {} from "ext:deno_node/path/mod.ts"
+
 export const sep = "\\";
 export const delimiter = ";";
 

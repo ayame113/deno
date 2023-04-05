@@ -6,7 +6,7 @@ import {
   MaybeEmpty,
   notImplemented,
 } from "ext:deno_node/_utils.ts";
-import { fromFileUrl } from "ext:deno_node/path.ts";
+import { fromFileUrl } from "ext:deno_node/path/mod.ts";
 import { promisify } from "ext:deno_node/internal/util.mjs";
 
 type ReadlinkCallback = (

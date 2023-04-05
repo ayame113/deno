@@ -7,7 +7,7 @@ import {
   getValidatedPath,
   kMaxUserId,
 } from "ext:deno_node/internal/fs/utils.mjs";
-import * as pathModule from "ext:deno_node/path.ts";
+import * as pathModule from "ext:deno_node/path/mod.ts";
 import { validateInteger } from "ext:deno_node/internal/validators.mjs";
 import type { Buffer } from "ext:deno_node/buffer.ts";
 import { promisify } from "ext:deno_node/internal/util.mjs";

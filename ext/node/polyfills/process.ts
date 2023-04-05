@@ -13,7 +13,7 @@ import {
 } from "ext:deno_node/internal/errors.ts";
 import { getOptionValue } from "ext:deno_node/internal/options.ts";
 import { assert } from "ext:deno_node/_util/asserts.ts";
-import { fromFileUrl, join } from "ext:deno_node/path.ts";
+import { fromFileUrl, join } from "ext:deno_node/path/mod.ts";
 import {
   arch as arch_,
   chdir,

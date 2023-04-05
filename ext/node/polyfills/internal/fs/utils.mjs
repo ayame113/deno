@@ -30,7 +30,7 @@ import {
   validateObject,
   validateUint32,
 } from "ext:deno_node/internal/validators.mjs";
-import pathModule from "ext:deno_node/path.ts";
+import * as pathModule from "ext:deno_node/path/mod.ts";
 const kType = Symbol("type");
 const kStats = Symbol("stats");
 import assert from "ext:deno_node/internal/assert.mjs";

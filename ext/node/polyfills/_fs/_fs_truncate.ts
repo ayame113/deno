@@ -1,6 +1,6 @@
 // Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.
 import { CallbackWithError } from "ext:deno_node/_fs/_fs_common.ts";
-import { fromFileUrl } from "ext:deno_node/path.ts";
+import { fromFileUrl } from "ext:deno_node/path/mod.ts";
 import { promisify } from "ext:deno_node/internal/util.mjs";
 
 export function truncate(

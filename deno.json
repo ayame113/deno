@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "ext:deno_node/path": "./ext/node/polyfills/path",
+    "std/": "https://deno.land/std/"
+  }
+}

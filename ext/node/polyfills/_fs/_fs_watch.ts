@@ -1,5 +1,5 @@
 // Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.
-import { basename } from "ext:deno_node/path.ts";
+import { basename } from "ext:deno_node/path/mod.ts";
 import { EventEmitter } from "ext:deno_node/events.ts";
 import { notImplemented } from "ext:deno_node/_utils.ts";
 import { promisify } from "ext:deno_node/util.ts";
